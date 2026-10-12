@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+main,div,header,section,figure,figcaption,footer,article,ul,nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+:root{
+    --red-color:red;
+    --font-shabname:'shabname'
+}
